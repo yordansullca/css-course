@@ -1,0 +1,90 @@
+/* Selectores */
+
+/* Selector elemental -> universal */
+
+/* *{
+    background-color: lightcoral;
+} */
+
+/* Selectores de tipo o etiqueta */
+/* h1{
+    background-color: lightcyan;
+}
+
+p{
+    background-color: lightgreen;
+}
+
+ul{
+    background-color: hotpink;
+}
+
+li{
+    background-color: rosybrown;
+} */
+
+/* Selectores de atributo */
+/* id */
+/* #title{
+    background-color: lightgreen;
+} */
+/* class */
+/* .title{
+    background-color: lightsalmon;
+}
+
+.text{
+    background-color: limegreen;
+} */
+/* otros atributos */
+/* [href]{
+    background-color: mediumorchid;
+}
+
+[href="https://google.com"]{
+    background-color: orangered;
+}
+
+[href^="color"]{
+    background-color: goldenrod;
+}
+
+[href*="modo"]{
+    background-color: green;
+}
+
+[href$="rojo"]{
+    background-color: steelblue;
+}
+
+[lang|="en"]{
+    background-color: slateblue;
+} */
+
+/* [class^="text"]{
+    background-color: slateblue;
+} */
+
+/* selectores agrupados */
+/* .text,.text-2,.text-3,.text-4{
+    background-color: steelblue;
+} */
+/* Selector descendiente */
+/* html body div .title-2{
+    background-color: teal;
+} */
+
+/* .text + h2{
+    background-color: greenyellow;
+} */
+
+/* Hermanos siguientes */
+.text-2 ~ p{
+    background-color:red;
+}
+
+
+/* Hijos directos */
+.container > p{
+    background-color: darkolivegreen;
+}
