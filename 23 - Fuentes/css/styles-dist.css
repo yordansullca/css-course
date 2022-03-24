@@ -127,7 +127,11 @@ body{
 
 .text{
    text-transform: capitalize;
-   text-shadow: 3px 3px 0 red;
+   /* text-shadow: 3px 3px 0 red; */
+   /* letter-spacing: 3px;
+   word-spacing: 100px; */
+   -ms-writing-mode: tb-rl;
+       writing-mode: vertical-rl;
 }
 
 .link{
