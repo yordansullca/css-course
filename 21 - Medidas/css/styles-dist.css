@@ -77,6 +77,7 @@ body {
 .header{
   background-color: lightskyblue;
   text-align: center;
+  /* height: 50vh; */
 }
 
 .box{
@@ -86,8 +87,12 @@ body {
 }
 
 .box-children{
-  width: 50%;
-  height: 50%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  /* width: 50%; */
+  width: 50vmin;
+  height: 150px;
   background-color: lightseagreen;
 }
 
