@@ -4,3 +4,4 @@
 * live server
 * pretier
 * electron highlighter
+* Color picker
